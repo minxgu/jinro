@@ -5,6 +5,7 @@ $(document).ready(function(){
     sliderComponent();
     pager();
     textScroll();
+    checkboxCheck();
 });
 
 function answertab(){
@@ -17,7 +18,11 @@ function answertab(){
         }
     });
 };
-
+function checkboxCheck(){
+    $("label").click(function(){
+        $("header nav ul li").removeClass("active");
+    });
+};
 function menuTab(){
     $('header nav ul li a[href="#"]').click(function(e) {
         e.preventDefault();
@@ -33,7 +38,7 @@ function menuTab(){
 };
 
 function tvcfVideo(){
-    $('#play').on('click', function() {
+    $('#play').on('click', function(){
         $("#player")[0].src += "?autoplay=1";
         $('#player').show();
         $('#videoCover').hide();
