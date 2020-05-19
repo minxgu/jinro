@@ -53,10 +53,10 @@ function sliderComponent(){
         easing : 'ease-in-out',
         minSlides: 1, //Carousel은 여러개의 객체를 보여주게 하는데, minSlides는 화면 크기가 줄어도 최저 몇개를 보여줄 것인가 의 값.  
         maxSlides: 3, //maxSlides는 최대 몇개의 객체를 보여줄 것인가 의 값
-        slideMargin: 90, // img와 img 사이 간격
+        slideMargin: 60, // img와 img 사이 간격
         moveSlides : 1, // 전환시 한번에 이동할 slide 수.
         slideWidth : 530, //각 슬라이드 별 width.
-        shrinkItems : false, //carousel에 전체 이미지를 다 뿌리고, min, max 수치를 기반으로 뷰포트에 맞게 이미지를 축소.
+        shrinkItems : true, //carousel에 전체 이미지를 다 뿌리고, min, max 수치를 기반으로 뷰포트에 맞게 이미지를 축소.
         touchEnabled : false
     });
 };
