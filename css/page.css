@@ -535,8 +535,6 @@
         margin-bottom: 30px;
     } 
     .detailMain div p{
-        font-size: 16px;
-        line-height: 26px;
         font-weight: 300;
         letter-spacing: -0.5px;
     }
@@ -864,6 +862,8 @@
         margin: 0 auto;
     }
     .detailMain div p{
+        font-size: 16px;
+        line-height: 26px;
         padding-right: 10%;
         margin-bottom: 30px;
     }
@@ -1135,6 +1135,8 @@
 /* DETAIL HITE */
 
     .detailMain div p{
+        font-size: 20px;
+        line-height: 32px;
         margin-bottom: 20px;
     }
 
@@ -1159,8 +1161,8 @@
         position:absolute;
         left:50%;
         transform:translate(-50%, -50%);
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 32px;
         text-align: center;
         color: #e3e3e3;
     }
