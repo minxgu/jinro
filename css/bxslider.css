@@ -203,12 +203,10 @@
     background-image: url("../images/main/btn_next_h.png");
   }
 
-
-  
  @media screen and (max-width: 767px){
     .bx-wrapper .bx-controls .bx-controls-direction{
-      width: 30%;
-      right: 8%;
+      width: 35%;
+      right: 3%;
       top: -60px;
     }
     .bx-wrapper .bx-controls .bx-controls-direction a{
