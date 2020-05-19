@@ -81,7 +81,6 @@
     .socialBoard{
         background: #fff url("../images/main/bg_social.png") no-repeat center center;
         background-size: cover;
-        padding: 100px 0 100px 10%;
     }
     .socialBoard h2{
         font-weight: 900;
@@ -93,82 +92,48 @@
         color: #3c3c3c;
     }
     .socialBoard ul li{
-        height: 530px;
-        max-height: 530px;
-        background-repeat: no-repeat;
-        background-position: left top;
-        background-size: cover;
-    }
-    .socialBoard ul li.sb1{
-        background-image: url("../images/main/social_01.png");
-    }
-    .socialBoard ul li.sb2{
-        background-image: url("../images/main/social_02.png");
-    }
-    .socialBoard ul li.sb3{
-        background-image: url("../images/main/social_03.png");
-    }
-    .socialBoard ul li.sb4{
-        background-image: url("../images/main/social_04.png");
-    }
-    .socialBoard ul li.sb5{
-        background-image: url("../images/main/social_05.png");
-    }
-    .socialBoard ul li.sb6{
-        background-image: url("../images/main/social_06.png");
-    }
-    .socialBoard ul li.sb7{
-        background-image: url("../images/main/social_07.png");
-    }
-    .socialBoard ul li.sb8{
-        background-image: url("../images/main/social_08.png");
-    }
-    .socialBoard ul li.sb9{
-        background-image: url("../images/main/social_09.png");
-    }
-    .socialBoard ul li.sb10{
-        background-image: url("../images/main/social_10.png");
+        position: relative;
     }
     .socialBoard ul li > div{
-        display: none;
-    }
-    .socialBoard ul li:hover > div{
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
         display: block;
+        width: 100%;
         height: 100%;
-        padding: 10% 25% 10% 10%;
         background-color: rgba(0, 0, 0, 0.8);
         box-sizing: border-box;
+        cursor: pointer;
     }
-    .socialBoard ul li:hover > div img{
-        margin-bottom: 25px;
+    .socialBoard ul li > div:hover{
+        opacity: 1;
     }
-    .socialBoard ul li:hover > div strong{
+    .socialBoard ul li > div:hover img{
+        margin-bottom: 5%;
+    }
+    .socialBoard ul li > div:hover strong{
         display: block;
-        margin-bottom: 10px;
         font-size: 16px;
         line-height: 26px;
         color: #e3e3e3;
+        margin-bottom: 10px;
     }
-    .socialBoard ul li:hover > div p,
-    .socialBoard ul li:hover > div > div{
-        font-size: 16px;
-        line-height: 26px;
+    .socialBoard ul li > div:hover p,
+    .socialBoard ul li > div:hover > div{
         letter-spacing: -0.5px;
         color: #a0a0a0;
     }
-    .socialBoard ul li:hover > div p{
+    .socialBoard ul li > div:hover p{
         margin-bottom: 10px;
     }
-    .socialBoard ul li:hover > div > div{
-        margin-bottom: 30px;
-    }
-    .socialBoard ul li:hover > div a{
+    .socialBoard ul li > div:hover a{
         color: #daa520;
         font-size: 16px;
         letter-spacing: -0.5px;
         display: block;
     }
-    .socialBoard ul li:hover > div a:hover::before{
+    .socialBoard ul li > div:hover a:hover::before{
         content: '> ';
     }
 
@@ -678,17 +643,36 @@
         display: block;
         margin: 0 auto;
     }
-
+    .socialBoard{
+        padding: 100px 10%;
+    }
     .socialBoard h2{
         font-size: 32px;
         line-height: 40px;
     }
     .socialBoard > p{
-        max-width: 320px;
+        max-width: 300px;
         font-size: 16px;
         font-weight: 300;
         line-height: 26px;
         margin-bottom: 80px;
+    }
+    .socialBoard ul li > div{
+        padding: 10%;
+    }
+    .socialBoard ul li > div > img{
+        display: none;
+    }
+    .socialBoard ul li > div:hover p,
+    .socialBoard ul li > div:hover > div{
+        font-size: 2.7vw;
+        line-height: 3.5vw;
+    }
+    .socialBoard ul li > div:hover > div{
+        margin-bottom: 20px;
+    }
+    .socialBoard ul li > div:hover a{
+        font-size: 2.7vw;
     }
     /* Main Fin */
 
@@ -1006,11 +990,15 @@
         bottom: 100px;
     }
 
+    .socialBoard{
+        padding: 100px 0 100px 10%;
+    }
     .socialBoard h2{
         font-size: 50px;
         line-height: 62px;
     }
     .socialBoard > p{
+        max-width: 370px;
         font-size: 20px;
         font-weight: 300;
         line-height: 32px;
@@ -1206,8 +1194,22 @@
         line-height: 26px;
     }
 
-    .socialBoard > p{
-        max-width: 370px;
+    .socialBoard ul li > div{
+        padding: 10%;
+    }
+    .socialBoard ul li > div > img{
+        display: none;
+    }
+    .socialBoard ul li > div:hover p,
+    .socialBoard ul li > div:hover > div{
+        font-size: 1.7vw;
+        line-height: 2.8vw;
+    }
+    .socialBoard ul li > div:hover > div{
+        margin-bottom: 15px;
+    }
+    .socialBoard ul li > div:hover a{
+        font-size: 1.7vw;
     }
 
     /* ABOUT */
@@ -1406,15 +1408,25 @@
         line-height: 32px;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
     }
-    
     .beerList ul li:hover a{
         color: #e8b248;
     }
-
-    .socialBoard > p{
-        max-width: 380px;
-    }
     
+    .socialBoard ul li > div{
+        padding: 10% 20% 10% 10%;
+    }
+    .socialBoard ul li > div:hover p,
+    .socialBoard ul li > div:hover > div{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .socialBoard ul li > div:hover > div{
+        margin-bottom: 30px;
+    }
+    .socialBoard ul li > div:hover a{
+        font-size: 16px;
+    }
+
     /* ABOUT */
     .fullWrap section ul.pagination{position:fixed; top:45%; right:-7%; width:20%; z-index:1;}
     .fullWrap section ul.pagination:after{content:''; display:block; visibility:hidden; clear:both;}
