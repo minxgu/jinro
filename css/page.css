@@ -1,0 +1,1669 @@
+    /* Main Page */
+    .mainVideo{
+        position: relative; 
+        line-height: 0;
+    }
+    .mainVideo h2{
+        display: block;
+    }
+    .mainVideo video{
+        width: 100%;
+    }
+    .aboutUs{
+        background: #fff url("../images/main/bg_about.png") no-repeat center 60px;
+        background-size: cover;
+    }
+    .aboutUs > div.inner{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .aboutUs > div.inner h2{
+        color: #202020;
+    }
+    .aboutUs > div.inner > div > p{
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        color: #3c3c3c;
+    }
+    .aboutUs > div.inner > div ul:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .aboutUs > div.inner > div ul li{
+        float: left;
+    }
+    .aboutUs > div.inner > div ul li strong{
+        display: block;
+        color: #202020;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .aboutUs > div.inner > div ul li p{
+        font-weight: 300;
+        letter-spacing: -0.5;
+        color: #3c3c3c;
+        text-align: center;
+    }
+
+    .beerList ul li h2{
+        width: 130px;
+        height: 44px;
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .beerList ul li:first-child h2{
+        background-image: url("../images/main/logo_hite.png");
+    }
+    .beerList ul li:nth-child(2) h2{
+        background-image: url("../images/main/logo_terra.png");
+    }
+    .beerList ul li:nth-child(3) h2{
+        background-image: url("../images/main/logo_max2.png");
+    }
+    .beerList ul li:last-child h2{
+        background-image: url("../images/main/logo_filite.png");
+    }
+    .beerList ul li p{
+        font-weight: 300;
+        text-align: center;
+    }
+    .beerList ul li a{
+        width: 112px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fff;
+    }
+
+    .socialBoard{
+        background: #fff url("../images/main/bg_social.png") no-repeat center center;
+        background-size: cover;
+        padding: 100px 0 100px 10%;
+    }
+    .socialBoard h2{
+        font-weight: 900;
+        color: #daa520;
+        margin-bottom: 20px;
+    }
+    .socialBoard > p{
+        letter-spacing: -0.7px;
+        color: #3c3c3c;
+    }
+    .socialBoard ul li{
+        height: 530px;
+        max-height: 530px;
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: cover;
+    }
+    .socialBoard ul li.sb1{
+        background-image: url("../images/main/social_01.png");
+    }
+    .socialBoard ul li.sb2{
+        background-image: url("../images/main/social_02.png");
+    }
+    .socialBoard ul li.sb3{
+        background-image: url("../images/main/social_03.png");
+    }
+    .socialBoard ul li.sb4{
+        background-image: url("../images/main/social_04.png");
+    }
+    .socialBoard ul li.sb5{
+        background-image: url("../images/main/social_05.png");
+    }
+    .socialBoard ul li.sb6{
+        background-image: url("../images/main/social_06.png");
+    }
+    .socialBoard ul li.sb7{
+        background-image: url("../images/main/social_07.png");
+    }
+    .socialBoard ul li.sb8{
+        background-image: url("../images/main/social_08.png");
+    }
+    .socialBoard ul li.sb9{
+        background-image: url("../images/main/social_09.png");
+    }
+    .socialBoard ul li.sb10{
+        background-image: url("../images/main/social_10.png");
+    }
+    .socialBoard ul li > div{
+        display: none;
+    }
+    .socialBoard ul li:hover > div{
+        display: block;
+        height: 100%;
+        padding: 10% 25% 10% 10%;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+    }
+    .socialBoard ul li:hover > div img{
+        margin-bottom: 25px;
+    }
+    .socialBoard ul li:hover > div strong{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #e3e3e3;
+    }
+    .socialBoard ul li:hover > div p,
+    .socialBoard ul li:hover > div > div{
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.5px;
+        color: #a0a0a0;
+    }
+    .socialBoard ul li:hover > div p{
+        margin-bottom: 10px;
+    }
+    .socialBoard ul li:hover > div > div{
+        margin-bottom: 30px;
+    }
+    .socialBoard ul li:hover > div a{
+        color: #daa520;
+        font-size: 16px;
+        letter-spacing: -0.5px;
+        display: block;
+    }
+    .socialBoard ul li:hover > div a:hover::before{
+        content: '> ';
+    }
+
+    /* scroll text*/   
+    section.panel > div{
+        opacity:0;
+        transform:translateY(15%);
+        transition-duration:1s;
+    }
+    section.panel.scroll > div{
+        opacity:1;
+        transform:translateY(0);
+    }
+    /* scroll text*/
+
+    .fullWrap section.panel{
+        background-blend-mode: overlay;
+        height: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    .fullWrap section > div.inner{
+        margin: 0 auto;
+    }
+    .panel.ceo{
+        background: url("../images/about/bg_ceo.jpg") no-repeat center, #2c2c2c;
+        background-size: cover;
+    }
+    .panel.ceo > div > div:last-of-type h3{
+        letter-spacing: -0.5px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 3%;
+    }
+    .panel.ceo > div > div:last-of-type b{
+        letter-spacing: -0.5px;
+        color: #e3e3e3;
+        display: block;
+        margin-bottom: 5%;
+    }
+    .panel.ceo > div > div p{
+        letter-spacing: -0.2px;
+        font-weight: 300;
+        color: #a0a0a0;
+    }
+    .panel.ceo > div > div:last-of-type p{
+        margin-bottom: 5%;
+    }
+    .panel.ceo > div > div:last-of-type p:last-child{
+        float: right;
+    }
+    .panel.ceo > div > div:last-of-type p:last-child strong{
+        font-weight: 400;
+    }
+
+    .panel.slogan{
+        background: url("../images/about/bg_slogan.jpg") no-repeat center center, #2c2c2c;
+        background-size: cover;
+    }
+    .panel.slogan > div > div:first-child{
+        text-indent: -9999px;
+        background: url("../images/about/slogan.png") no-repeat center center;
+        background-size: contain;
+    }
+    .panel.slogan > div > div:last-child h3{
+        letter-spacing: -0.5px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .panel.slogan > div div:last-child p{
+        letter-spacing: -0.5px;
+        font-weight: 300;
+        color: #e3e3e3;
+    }
+
+    .panel.management{
+        background: url("../images/about/bg_manage.jpeg") no-repeat center center, #2c2c2c;
+        background-size: cover;
+    }
+    .panel.management > div h3{
+        letter-spacing: -0.5px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .panel.management > div mark{
+        color: #daa520;
+        font-weight: 900;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .panel.management > div p{
+        max-width: 630px;
+        letter-spacing: -0.5px;
+        font-weight: 300;
+        color: #a0a0a0;
+        margin-bottom: 20px;
+    }
+    .panel.management > div strong{
+        font-weight: 400;
+        letter-spacing: -0.5px;
+        color: #e3e3e3;
+    }
+
+    .panel.corevalues{
+        background: url("../images/about/bg_core.jpg") no-repeat center center, #2c2c2c;
+        background-size: cover;
+    }
+    .panel.corevalues > div h3{
+        letter-spacing: -0.5px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+    }
+    .panel.corevalues > div ul li{
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .panel.corevalues > div ul li mark{
+        color: #daa520;
+        display: block;
+    }
+    .panel.corevalues > div ul li p{
+        letter-spacing: -0.5px;
+        font-weight: 300;
+        color: #e3e3e3;
+    }
+
+    .panel.location{
+        background: url("../images/about/bg_location.png") no-repeat center center, #2c2c2c;
+        background-size: cover;
+    }
+    .panel.location div.inner{
+        position: relative;
+    }
+    .panel.location > div > div:last-child h3{
+        letter-spacing: -0.5px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .panel.location > div > div:last-child mark{
+        color: #daa520;
+        font-weight: 900;
+        display: block;
+    }
+    .panel.location > div > div:last-child address{
+        font-style: normal;
+    }
+    .panel.location > div > div:last-child address,
+    .panel.location > div > div:last-child a,
+    .panel.location > div > div:last-child p{
+        letter-spacing: -0.5px;
+        font-weight: 300;
+        color: #e3e3e3;
+        display: block;
+    }
+    .panel.location > div > div:last-child a{
+        color: #e3e3e3;
+    }
+
+    /* about - map */
+    #floating-panel {
+        position: absolute;
+        z-index: 5;
+        text-align: center;
+        line-height: 30px;
+        max-width:100px;
+    }
+
+    /* FAQ */
+    .faqArea{
+        background: url("../images/faq/bg_faq.jpg") no-repeat center top, #2c2c2c;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: overlay;
+    }
+    .faqArea h2{
+        font-size: 60px;
+        line-height: 72px;
+        letter-spacing: -0.5px;
+        font-weight: 900;
+        color: #daa520;
+        margin-bottom: 10px;
+    }
+    .faqArea > p{
+        font-size: 16px;
+        line-height: 26px;
+        color: #e3e3e3;
+    }
+    .faqArea ul{
+        margin-bottom: 50px;
+    }
+    .faqArea ul li h3.checkTarget{
+        display: block;
+        position: relative;
+        border-top: 1px solid #a0a0a0;
+        border-bottom: 1px solid #a0a0a0;
+        font-size: 16px;
+        line-height:26px;
+        letter-spacing: -0.2px;
+        color: #e3e3e3;
+        cursor: pointer;
+    }
+    .faqArea ul li h3.checkTarget::before{
+        content: 'Q';
+        position: absolute;
+    }
+    .faqArea ul li h3.checkTarget::after{
+        content: '>';
+        position: absolute;
+        color: #a0a0a0;
+        transform: rotate(90deg) scaleY(1.7);
+        transition-duration: 0.5s;
+    }
+    .faqArea ul li h3.checkTarget.active::after{
+        color: #daa520;
+        transform: rotate(270deg) scaleY(1.7);
+    }
+    .faqArea ul li h3.checkTarget + div{
+        background-color: rgba(255, 255, 255, 0.6);
+        position: relative;
+        overflow: hidden;
+        max-height: 0;
+    }
+    .faqArea ul li h3.checkTarget.active + div{
+        max-height: 1000px;
+        transition: max-height 1.5s ease-in-out;
+    }
+    .faqArea ul li div p{
+        font-size: 16px;
+        line-height: 26px;
+        color: #202020;
+    }
+    .faqArea ul li div p:first-of-type{
+        padding-top: 15px;
+    }
+    .faqArea ul li div p:first-of-type::before{
+        content: 'A';
+        font-weight: 900;
+        color: #202020;
+        position: absolute;
+    }
+    .faqArea ul li div p strong{
+        display: block;
+    }
+
+    /* pager */
+    .faqArea div.paging{
+        position:relative;
+    }
+    .faqArea div.paging > a{
+        position:absolute;
+        font-size:18px;
+        font-weight:900;
+        color: #fff;
+    }
+    .faqArea div.paging > a:first-child{
+        left:40%;
+        top:0;
+    }
+    .faqArea div.paging > a:nth-child(2){
+        right:40%;
+        top:0;
+    }
+    .faqArea div.paging ol{
+        text-align:center;
+    }
+    .faqArea div.paging ol li{
+        display:inline-block;
+    }
+    .faqArea div.paging ol li a{
+        display:block;
+        font-size:14px;
+        color: #daa520;
+        text-decoration: underline;
+        margin-left: 40px;
+        transition-duration:0.5s;
+    }
+    .faqArea div.paging ol li:first-of-type a{
+        margin-left: 0px;
+    }
+
+ /* DETAIL HITE */
+
+    /* Detail font color */
+    .detailInfo.terra div.inner h2,
+    .detailInfo.max div.inner h2,
+    .detailMain.terra div h3,
+    .detailMain.max div h3{
+        color: #fff;
+    }
+    .detailMain.terra div p,
+    .detailMain.max div p,
+    .detailInfo.terra div.inner > p,
+    .detailInfo.max div.inner > p,
+    .detailInfo.terra div.inner > ul li strong,
+    .detailInfo.max div.inner > ul li strong{
+        color: #e3e3e3;
+    }
+    .detailInfo.terra div.inner > ul li p,
+    .detailInfo.max div.inner > ul li p{
+        color: #a0a0a0;
+    }
+    .detailInfo.hite > ul li p,
+    .detailInfo.filte > ul li p
+    {
+        color: #666;
+    }
+    .detailMain.hite div p,
+    .detailMain.max div p,
+    .detailInfo.hite div.inner > p,
+    .detailInfo.filite div.inner > p,
+    .detailInfo.hite div.inner > ul li strong,
+    .detailInfo.filite div.inner > ul li strong{
+        color: #3c3c3c;
+    }
+    .detailMain.hite div h3,
+    .detailMain.max div h3,
+    .detailInfo.hite div.inner h2,
+    .detailInfo.filite div.inner h2{
+        color: #202020;
+    }
+
+    .detailBg01{
+        background: url("../images/detail/bg_hite.jpg") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .detailBg02{
+        background: url("../images/detail/bg_terra.jpg") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .detailBg03{
+        background: url("../images/detail/bg_max.jpg") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .detailBg04{
+        background: url("../images/detail/bg_filite.png") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .detailMain.hite{ background-color: #fff; }
+    .detailMain.terra{ background-color: #030205; }
+    .detailMain.max{ background-color: #e8b248; }
+    .detailMain.filite{ background-color: #b7e6f0; }
+
+    .detailMain.hite { background-image: url("../images/detail/hite_logo_03.png"); }
+    .detailMain.terra { background-image: url("../images/detail/terra_logo_03.png"); }
+    .detailMain.max { background-image: url("../images/detail/max_logo_03.png"); }
+    .detailMain.filite { background-image: url("../images/detail/filite_logo_03.png"); }
+
+    .detailMain h2{
+        display: none;
+    }
+    .detailMain div{
+        box-sizing: border-box;
+    }
+    .detailMain div h3{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    } 
+    .detailMain div p{
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+    }
+    .detailInfo{
+        background-repeat: no-repeat;
+    }
+    .detailInfo.hite{ background-image: url("../images/detail/hite_product.png"), url("../images/detail/bg_info_hite.jpg");}
+    .detailInfo.terra{ background-image: url("../images/detail/terra_product.png"), url("../images/detail/bg_info_terra.jpg");}
+    .detailInfo.max{ background-image: url("../images/detail/max_product.png"), url("../images/detail/bg_info_max.jpg");}
+    .detailInfo.filite{ background-image: url("../images/detail/filite_product.png"), url("../images/detail/bg_info_filite.jpg");}
+    
+    .detailInfo div.inner{
+        margin: 0 auto;
+    }
+    .detailInfo div.inner h2{
+        font-weight: 900;
+    }
+    .detailInfo div.inner > ul li strong{
+        font-size: 16px;
+        display: block;
+    }
+    .detailInfo div.inner > ul li p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .detailTvcf{
+        background-color: #202020;
+        position: relative;
+    }
+    .detailTvcf iframe{
+        display:none;
+        width: 100%;
+        height: 100%;
+    }
+    .detailTvcf div{
+        width:100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .detailTvcf.hite div{ background-image: url("../images/detail/cf_hite.png"); }
+    .detailTvcf.terra div{ background-image: url("../images/detail/cf_terra.png"); }
+    .detailTvcf.max div{ background-image: url("../images/detail/cf_max.png"); }
+    .detailTvcf.filite div{ background-image: url("../images/detail/cf_filite.png"); }
+
+    .detailTvcf div h2{
+        position:absolute;
+        left:50%;
+        transform:translate(-50%, -50%);
+        color: #fff;
+    }
+    .detailTvcf div button{
+        position:absolute;
+        z-index:100;
+        top:55%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        background-color:transparent;
+        width: 120px;
+        height: 120px;
+        border:1px solid #fff;
+        border-radius: 100%;
+        color: #fff;
+        padding-bottom: 10px;
+        padding-left: 13px;
+        text-indent: -9999px;
+        background: url("../images/detail/btn_play.png") no-repeat center center;  
+    }
+
+
+
+@media screen and (max-width: 767px){
+
+    /* Main Page */
+    .mainVideo > a{
+        display: none;
+    }
+
+    .aboutUs{
+        padding: 60px 0;
+    }
+    .aboutUs > div.inner h2{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .aboutUs > div.inner > div{
+        width: 100%;
+    }
+    .aboutUs > div.inner > div > p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .aboutUs > div.inner > div ul li{
+        width: 50%;
+    }
+    .aboutUs > div.inner > div ul li:first-child,
+    .aboutUs > div.inner > div ul li:nth-child(2){
+        margin-bottom: 20px;
+    }
+    .aboutUs > div.inner > div ul li strong{
+        font-size: 29px;
+        text-align: center;
+    }
+    .aboutUs > div.inner > div ul li p{
+        font-size: 12px;
+    }
+
+    .beerList ul li{
+        height: auto;
+        padding: 50px 10%;
+        box-sizing: border-box;
+        background-blend-mode: overlay;
+        background-size: 10%;
+    }
+    .beerList ul li:first-child{
+        background: url("../images/main/bg_hite.jpg") no-repeat center, #333;
+    }
+    .beerList ul li:nth-child(2){
+        background: url("../images/main/bg_terra.png") no-repeat center, #333;
+    }
+    .beerList ul li:nth-child(3){
+        background: url("../images/main/bg_max.png") no-repeat center, #333;
+    }
+    .beerList ul li:last-child{
+        background: url("../images/main/bg_filite.png") no-repeat center, #333;
+    }
+    .beerList ul li h2{
+        margin: 0 auto 20px;
+    }
+    .beerList ul li p{
+        color: #e3e3e3;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .beerList ul li a{
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .socialBoard h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .socialBoard > p{
+        max-width: 320px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        margin-bottom: 80px;
+    }
+    /* Main Fin */
+
+
+    /* ABOUT */
+    .fullWrap section ul.pagination{display: none;}
+    /* indicator fin */
+
+    .fullWrap section > div.inner{
+        width: 70%;
+    }
+    .panel.ceo{
+        padding: 28% 0;
+    }
+    .panel.ceo > div > div:first-of-type{
+        display: none;
+    }
+    .panel.ceo > div > div:last-of-type{
+        width: 100%;
+    }
+    .panel.ceo > div > div:last-of-type h3{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .panel.ceo > div > div:last-of-type b{
+        max-width: 500px;
+        font-size: 5.5vw;
+        line-height: 7vw;
+    }
+    .panel.ceo > div > div p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .panel.ceo > div > div:last-of-type p:last-child{
+        color: #e3e3e3;
+        font-weight: 300;
+    }
+
+    .panel.slogan{
+        padding: 25% 0;
+    }
+    .panel.slogan > div > div:first-child{
+        height: 150px;
+    }
+    .panel.slogan > div > div:last-child h3{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .panel.slogan > div div:last-child p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .panel.management{
+        padding: 40% 0;
+    }
+    .panel.management > div h3{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .panel.management > div mark{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .panel.management > div p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .panel.management > div strong{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .panel.corevalues{
+        padding: 25% 0;
+    }
+    .panel.corevalues > div h3{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .panel.corevalues > div ul li{
+        margin: 0 auto 30px;
+    }
+    .panel.corevalues > div ul li mark{
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .panel.corevalues > div ul li p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .panel.location{
+        padding: 25% 0;
+    }
+    .panel.location > div > div:last-child h3{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+    .panel.location > div > div:last-child mark{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .panel.location > div > div:last-child address{
+        margin-bottom: 5px;
+    }
+    .panel.location > div > div:last-child address,
+    .panel.location > div > div:last-child a,
+    .panel.location > div > div:last-child p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .panel.location > div > div:last-child a{
+        display: inline-block;
+    }
+    
+    /* about - map */
+    #map {
+        width: 100%;
+        height: 270px;
+        margin-bottom: 20px;
+    }
+    #floating-panel{
+      top: 50px;
+      left: 5%;
+    }
+
+    /* FAQ */
+    .faqArea{
+        padding: 130px 8% 50px;
+    }
+    .faqArea > p{
+        margin-bottom: 70px;
+    }
+    .faqArea ul li h3.checkTarget{
+        padding: 15px 17%;
+    }
+    .faqArea ul li h3.checkTarget::before{
+        left: 7%;
+    }
+    .faqArea ul li h3.checkTarget::after{
+        right: 7%;
+    }
+    .faqArea ul li div p{
+        padding:0px 17% 15px; 
+    }
+    .faqArea ul li div p:first-of-type::before{
+        left: 7%;
+    }
+
+/* DETAIL HITE */
+
+    .detailMain{
+        background-repeat: no-repeat;
+        background-size: 230px;
+        display:flex;
+        flex-flow:column-reverse wrap
+    }
+    .detailMain.hite { background-position: 16% 410px; }
+    .detailMain.terra { background-position: 16% 410px; }
+    .detailMain.max { background-position: 18% 410px; }
+    .detailMain.filite { background-position: 16% 410px; }
+
+    .detailMain div{
+        width: 80%;
+        padding: 200px 0px 20px;
+        margin: 0 auto;
+    }
+    .detailMain div p{
+        padding-right: 10%;
+        margin-bottom: 30px;
+    }
+    .detailMain video{
+        width: 100%;
+        height: 350px;
+    }
+
+    .detailInfo{
+        padding: 100px 0;
+        background-position: 12% 80%, center center;
+        background-size: 36% ,cover;
+    }
+    .detailInfo div.inner:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .detailInfo div.inner{
+        width: 80%;
+    }
+    .detailInfo div.inner h2{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .detailInfo div.inner > p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+    .detailInfo div.inner > ul{
+        float: right;
+    }
+    .detailInfo div.inner > ul li{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .detailInfo div.inner > ul li strong{
+        margin-bottom: 10px;
+    }
+
+    /*   fillite Information   */
+    
+    .detailInfo.filite{
+        background-image: url("../images/detail/filite_product.png"), url("../images/detail/bg_info_filite.jpg");
+        background-position: center 24%, center center;
+        background-size: 400px, cover;
+    }
+    .detailInfo.filite div.inner h2{
+        margin-bottom: 270px;
+    }
+    .detailInfo.filite div.inner > ul{
+        width: 100%;
+    }
+    .detailInfo.filite div.inner > ul:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .detailInfo.filite div.inner > ul li{
+        float: left;
+        width: 50%;
+    }
+    /*  fillite Information  */
+    
+    .detailTvcf iframe{
+        min-height: 350px;
+    }
+    .detailTvcf div{
+        min-height: 350px;
+    }
+    .detailTvcf div h2{
+        top:28%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .detailTvcf div p{
+        display: none;
+    }
+}
+@media screen and (min-width:768px){
+
+    /* Main Page */
+    .mainVideo video{
+        height: 100vh;
+    }
+    .mainVideo > a{
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        color: #fff;
+        transform: rotate(90deg) scale(2,3.5);
+    }
+
+    .aboutUs{
+        padding: 100px 0;
+    }
+    .aboutUs > div:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .aboutUs > div.inner h2{
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .aboutUs > div.inner > div > p{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 40px;
+    }
+    .aboutUs > div.inner > div ul li p{
+        font-size: 14px;
+    }
+
+    .beerList ul:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .beerList ul li{
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        position: relative;
+        background-size: cover;
+    }
+    .beerList ul li h2{
+        margin: 0 auto 30px;
+    }
+    .beerList ul li a{
+        position: absolute;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        bottom: 100px;
+    }
+
+    .socialBoard h2{
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .socialBoard > p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 32px;
+        margin-bottom: 60px;
+    }
+    /* Main Fin */
+
+
+    /* ABOUT */
+    html,.fullWrap{ margin:0; padding:0; height:100%; }
+    .fullWrap section{height:100%;}
+    .fullWrap section.panel3{height:1400px;}
+
+
+    .fullWrap section.panel{
+        height: 100%;
+    }
+    .fullWrap section > div.inner{
+        width: 65%;
+    }
+
+    .panel.ceo > div > div:last-of-type h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .panel.ceo > div > div p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .panel.ceo > div > div:last-of-type p:last-child strong{
+        color: #e3e3e3;
+    }
+
+    .panel.slogan > div > div:first-child{
+        height: 250px;
+    }
+    .panel.slogan > div > div:last-child h3{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .panel.slogan > div div:last-child p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .panel.management > div h3{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .panel.management > div mark{
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .panel.management > div p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .panel.management > div strong{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .panel.corevalues{
+        padding: 15% 0;
+    }
+    .panel.corevalues > div h3{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 80px;
+    }
+    .panel.corevalues > div ul li{
+        padding: 0 3%;
+    }
+    .panel.corevalues > div ul li mark{
+        font-size: 20px;
+    }
+    .panel.corevalues > div ul li p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .panel.location{
+        padding: 15% 0;
+    }
+    .panel.location > div > div:last-child h3{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .panel.location > div > div:last-child mark{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .panel.location > div > div:last-child address{
+        margin-bottom: 20px;
+    }
+    .panel.location > div > div:last-child address,
+    .panel.location > div > div:last-child a,
+    .panel.location > div > div:last-child p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .panel.location > div > div:last-child address span{
+        display: block;
+    }
+    
+    /* about - map */
+    #floating-panel {
+      top: 10px;
+      left: 25%;
+    }
+
+    /* FAQ */
+    .faqArea{
+        padding: 130px 10% 50px;
+    }
+    .faqArea > p{
+        margin-bottom: 100px;
+    }
+    
+/* DETAIL HITE */
+
+    .detailMain div p{
+        margin-bottom: 20px;
+    }
+
+    .detailInfo{
+        min-width: 490px;
+    }
+    .detailInfo div.inner > ul:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .detailInfo div.inner > ul li strong{
+        margin-bottom: 20px;
+    }
+    
+    .detailTvcf div h2{
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .detailTvcf div p{
+        position:absolute;
+        left:50%;
+        transform:translate(-50%, -50%);
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #e3e3e3;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .aboutUs > div h2{
+        margin-bottom: 30px;
+    }
+    .aboutUs > div > div{
+        width: 100%;
+    }
+    .aboutUs > div > div ul li{
+        width: 25%;
+    }
+    .aboutUs > div > div ul li strong{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .beerList ul li{
+        min-height: 800px;
+        padding: 250px 3% 100px 3%;
+        background-blend-mode: overlay;
+    }
+    .beerList ul li:first-child{
+        background: url("../images/main/bg_hite.jpg") no-repeat center center, #333;
+    }
+    .beerList ul li:nth-child(2){
+        background: url("../images/main/bg_terra.png") no-repeat center center, #333;
+    }
+    .beerList ul li:nth-child(3){
+        background: url("../images/main/bg_max.png") no-repeat center center, #333;
+    }
+    .beerList ul li:last-child{
+        background: url("../images/main/bg_filite.png") no-repeat center center, #333;
+    }
+    .beerList ul li p{
+        color: #e3e3e3;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .socialBoard > p{
+        max-width: 370px;
+    }
+
+    /* ABOUT */
+    .fullWrap section ul.pagination{display: none;}
+
+    .panel.ceo{
+        padding: 20% 0;
+    }
+    .panel.ceo > div > div:first-of-type{
+        display: none;
+    }
+    .panel.ceo > div > div:last-of-type b{
+        min-width: 515px;
+        font-size: 5.5vw;
+        line-height: 7vw;
+    }
+
+    .panel.slogan{
+        padding: 25% 0;
+    }
+    .panel.slogan > div > div:first-child{
+        width: 100%;
+    }
+    .panel.slogan > div > div:last-child{
+        width: 100%;
+    }
+
+    .panel.management{
+        padding: 30% 0;
+    }
+
+    .panel.corevalues > div ul li{
+        width: 70%;
+        margin: 0 auto 30px;
+    }
+    .panel.corevalues > div ul li mark{
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    /* about - map */
+    #map {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    /* FAQ */
+    .faqArea ul li h3.checkTarget{
+        padding: 15px 11%;
+    }
+    .faqArea ul li h3.checkTarget::before{
+        left: 5%;
+    }
+    .faqArea ul li h3.checkTarget::after{
+        right: 5%;
+    }
+    .faqArea ul li div p{
+        padding:0px 11% 15px; 
+    }
+    .faqArea ul li div p:first-of-type::before{
+        left: 5%;
+    }
+    
+
+    /* DETAIL HITE */
+    .detailMain{
+        margin-bottom: 500px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        display:flex;
+        flex-flow:column-reverse wrap
+    }
+    .detailMain.hite { background-position: 16% 59.5%; }
+    .detailMain.terra { background-position: 20% 63%; }
+    .detailMain.max { background-position: 18% 61%; }
+    .detailMain.filite { background-position: 20% 58%; }
+
+    .detailMain div{
+        width: 80%;
+        padding: 300px 0px 70px;
+        margin: 0 auto;
+    }
+    .detailMain div p{
+        padding-right: 10%;
+    }
+    .detailMain video{
+        width: 100%;
+        height: 500px;
+    }
+
+    .detailInfo{
+        padding: 13% 0;
+        background-position: 25% 90%, center center;
+        background-size: 280px, cover;
+    }
+    .detailInfo.filite{
+        background-position: 10% 88%, center center;
+        background-size: 470px, cover;
+    }
+    .detailInfo div.inner{
+        width: 80%;
+    }
+    .detailInfo div.inner h2{
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 20px;
+    }
+    .detailInfo div.inner > p{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 80px;
+    }
+    .detailInfo div.inner > ul{
+        margin-left: 65%;
+    }
+    .detailInfo div.inner > ul li{
+        margin-bottom: 30px;
+    }
+    .detailInfo div.inner > ul li strong{
+        font-size: 16px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .detailInfo div.inner > ul li p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    .detailTvcf iframe{
+        min-height: 600px;
+    }
+    .detailTvcf div{
+        height:600px;
+    }
+    .detailTvcf div h2{
+        top:20%;
+    }
+    .detailTvcf div p{
+        top:34%;
+    }
+}
+@media screen and (min-width: 1025px){
+    /* Main */
+    .aboutUs > div{
+        min-width: 955px;
+    }
+    .aboutUs > div h2{
+        float: left;
+        margin-right: 3%;
+    }
+    .aboutUs > div > div{
+        float: right;
+        width: 70%;
+    }
+    .aboutUs > div > div ul li{
+        margin-right: 10%;
+    }
+    .aboutUs > div > div ul li:last-child{
+        margin-right: 0;
+    }
+    .aboutUs > div > div ul li strong{
+        font-size: 3vw;
+    }
+    
+    .beerList ul li{
+        min-height: 1000px;
+        padding: 350px 2% 0 2%;
+        opacity: 0.3;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .beerList ul li:hover{
+        opacity: 1;
+    }
+    .beerList ul li:first-child{
+        background-image: url("../images/main/bg_hite.jpg");
+    }
+    .beerList ul li:nth-child(2){
+        background-image: url("../images/main/bg_terra.png");
+    }
+    .beerList ul li:nth-child(3){
+        background-image: url("../images/main/bg_max.png");
+    }
+    .beerList ul li:last-child{
+        background-image: url("../images/main/bg_filite.png");
+    }
+    .beerList ul li:hover h2{
+        opacity: 1;
+    }
+    .beerList ul li p{
+        color: #fff;
+        font-size: 20px;
+        line-height: 32px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    }
+    
+    .beerList ul li:hover a{
+        color: #e8b248;
+    }
+
+    .socialBoard > p{
+        max-width: 380px;
+    }
+    
+    /* ABOUT */
+    .fullWrap section ul.pagination{position:fixed; top:45%; right:-7%; width:20%; z-index:1;}
+    .fullWrap section ul.pagination:after{content:''; display:block; visibility:hidden; clear:both;}
+    .fullWrap section ul.pagination li{display:block;}
+
+    .fullWrap section ul.pagination li a { text-decoration: none; display: inherit; margin: 5px 0;}
+    .fullWrap section ul.pagination li a span {
+        display: inherit;
+        text-align: right;
+        color: transparent;
+        background-color: transparent;
+        float: left;
+        box-sizing: border-box;
+        transition-duration: 0.5s;
+    }
+    .fullWrap section ul.pagination li a:after {
+        content: '';
+        display: block;
+        clear: both;
+        visibility: hidden;
+    }
+    .fullWrap section ul.pagination li a span:first-of-type {
+        width: 100px;
+        margin-right: 15px;
+    }
+    .fullWrap section ul.pagination li a.active span:first-of-type {
+        color: #fff
+    }
+    .fullWrap section ul.pagination li a span:nth-of-type(2){
+        display:block; 
+        float:left;
+        width:8px;
+        height:8px;
+        border-radius:8px;
+        margin:7px 0;
+    }
+    .fullWrap section ul.pagination li a.active span:nth-of-type(2){
+        background-color:#fff;
+    }
+    .fullWrap section ul.pagination li a span:nth-of-type(3) {
+        width: 5%;
+        height: 1px;
+        margin: 10px 0;
+        background-color: #666;
+    }
+    .fullWrap section ul.pagination li a.active span:nth-of-type(3) {
+        width: 40%;
+        height: 1px;
+        background-color: #fff;
+    }
+
+    .fullWrap section ul.pagination li:hover a span:first-of-type{
+        color: #fff
+    }
+    .fullWrap section ul.pagination li:hover a span:nth-of-type(2){
+        background-color:#fff;
+    }
+    .fullWrap section ul.pagination li:hover a span:nth-of-type(3) {
+        width: 40%;
+        height: 1px;
+        background-color: #fff;
+    }
+    /* indicator fin */
+
+    .panel.ceo{
+        padding: 10% 0;
+    }
+    .panel.ceo > div:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .panel.ceo > div > div:first-of-type{
+        float: left;
+        width: 40%;
+        padding: 0 5% 0 0;
+    }
+    .panel.ceo > div > div:first-of-type h2{
+        font-size: 50px;
+        line-height: 62px;
+        font-weight: 900;
+        color: #daa520;
+        margin-bottom: 10px;
+    }
+    .panel.ceo > div > div:first-of-type p{
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: -0.5px;
+        font-weight: 300;
+        color: #a0a0a0;
+    }
+    .panel.ceo > div > div:last-of-type{
+        float: right;
+        width: 50%;
+    }
+    .panel.ceo > div > div:last-of-type b{
+        font-size: 2.7vw;
+        line-height: 4vw;
+    }
+    
+    .panel.slogan{
+        padding: 15% 0;
+    }
+    .panel.slogan > div.inner:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .panel.slogan > div > div:first-child{
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+    }
+    .panel.slogan > div > div:last-child{
+        float: right;
+        width: 50%;
+    }
+
+    .panel.management{
+        padding: 15% 0;
+    }
+
+    
+    .panel.corevalues > div ul:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .panel.corevalues > div ul li{
+        float: left;
+        width: 33.33%;
+    }
+    .panel.corevalues > div ul li mark{
+        font-weight: 900;
+        margin-bottom: 25px;
+    }
+
+    
+    .panel.location .inner:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .panel.location > div > div:last-child{
+        float: right;
+        width: 40%;
+    }
+    /* about - map */
+    #map {
+        float: left;
+        width: 55%;
+        margin-right: 5%;
+        height: 480px;
+    }
+
+    /* FAQ */
+    .faqArea ul li h3.checkTarget{
+        padding: 15px 7%;
+    }
+    .faqArea ul li h3.checkTarget::before{
+        left: 3%;
+    }
+    .faqArea ul li h3.checkTarget::after{
+        right: 3%;
+    }
+    .faqArea ul li div p{
+        padding:0px 7% 15px; 
+    }
+    .faqArea ul li div p:first-of-type::before{
+        left: 3%;
+    }
+    
+
+    /* DETAIL HITE */
+    .detailMain{
+        margin-bottom: 700px;
+        background-repeat: no-repeat;
+        background-position: 13% 170px;
+        background-size: auto;
+    }
+    .detailMain:after{
+        content: '';
+        display: block;
+        visibility: hidden;
+        clear: both;
+    }
+    .detailMain div{
+        float: left;
+        width: 50%;
+        padding: 400px 7% 80px 10%;
+    }
+    .detailMain div p{
+        padding-right: 15%;
+    }
+    .detailMain video{
+        display: block;
+        width: 50%;
+        height: 1000px;
+    }
+
+    .detailInfo{
+        padding: 10% 0;
+        background-position: 20% center, center center;
+        background-size: 25%, cover;
+    }
+    .detailInfo.filite{
+        background-position: 10% center, center center;
+        background-size: 45%, cover;
+    }
+    .detailInfo div.inner{
+        width: 35%;
+        padding-left: 40%;
+        min-width: 410px;
+    }
+    .detailInfo div.inner h2{
+        font-size: 50px;
+        line-height: 62px;
+        margin-bottom: 40px;
+        min-width: 410px;
+    }
+    .detailInfo div.inner > p{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 50px;
+    }
+    .detailInfo div.inner > ul li{
+        float: left;
+        width: 45%;
+        margin-bottom: 40px;
+    }
+    .detailInfo div.inner > ul li:nth-of-type(odd){
+        margin-right: 10%;
+    }
+
+    .detailTvcf iframe{
+        min-height: 800px;
+    }
+    .detailTvcf div{
+        height:800px;
+    }
+    .detailTvcf div h2{
+        top:30%;
+    }
+    .detailTvcf div p{
+        top:38%;
+    }
+    .detailTvcf div button:hover {
+        cursor:pointer;
+    }
+}
