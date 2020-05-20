@@ -105,6 +105,7 @@
         background-color: rgba(0, 0, 0, 0.8);
         box-sizing: border-box;
         cursor: pointer;
+        transition: opacity 0.3s;
     }
     .socialBoard ul li > div:hover{
         opacity: 1;
