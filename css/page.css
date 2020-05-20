@@ -526,7 +526,9 @@
         font-size: 16px;
         line-height: 26px;
     }
-
+    .detailTvcf{
+        background-color: #202020;
+    }
     .detailTvcf iframe{
         width: 100%;
         height: 100%;
@@ -1601,7 +1603,6 @@
     }
 
     .detailTvcf{
-        background-color: #202020;
         position: relative;
     }
     .detailTvcf iframe{
