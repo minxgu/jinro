@@ -526,50 +526,10 @@
         line-height: 26px;
     }
 
-    .detailTvcf{
-        background-color: #202020;
-        position: relative;
-    }
     .detailTvcf iframe{
-        display:none;
         width: 100%;
         height: 100%;
     }
-    .detailTvcf div{
-        width:100%;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-    }
-    .detailTvcf.hite div{ background-image: url("../images/detail/cf_hite.png"); }
-    .detailTvcf.terra div{ background-image: url("../images/detail/cf_terra.png"); }
-    .detailTvcf.max div{ background-image: url("../images/detail/cf_max.png"); }
-    .detailTvcf.filite div{ background-image: url("../images/detail/cf_filite.png"); }
-
-    .detailTvcf div h2{
-        position:absolute;
-        left:50%;
-        transform:translate(-50%, -50%);
-        color: #fff;
-    }
-    .detailTvcf div button{
-        position:absolute;
-        z-index:100;
-        top:55%;
-        left:50%;
-        transform:translate(-50%, -50%);
-        background-color:transparent;
-        width: 120px;
-        height: 120px;
-        border:1px solid #fff;
-        border-radius: 100%;
-        color: #fff;
-        padding-bottom: 10px;
-        padding-left: 13px;
-        text-indent: -9999px;
-        background: url("../images/detail/btn_play.png") no-repeat center center;  
-    }
-
 
 
 @media screen and (max-width: 767px){
@@ -665,14 +625,14 @@
     }
     .socialBoard ul li > div:hover p,
     .socialBoard ul li > div:hover > div{
-        font-size: 2.7vw;
-        line-height: 3.5vw;
+        font-size: 15px;
+        line-height: 25px;
     }
     .socialBoard ul li > div:hover > div{
         margin-bottom: 20px;
     }
     .socialBoard ul li > div:hover a{
-        font-size: 2.7vw;
+        font-size: 15px;
     }
     /* Main Fin */
 
@@ -916,19 +876,12 @@
     }
     /*  fillite Information  */
     
-    .detailTvcf iframe{
-        min-height: 350px;
-    }
     .detailTvcf div{
-        min-height: 350px;
-    }
-    .detailTvcf div h2{
-        top:28%;
-        font-size: 32px;
-        line-height: 40px;
-    }
-    .detailTvcf div p{
         display: none;
+    }
+    .detailTvcf iframe{
+        display:block;
+        min-height: 350px;
     }
 }
 @media screen and (min-width:768px){
@@ -1141,19 +1094,6 @@
         margin-bottom: 20px;
     }
     
-    .detailTvcf div h2{
-        font-size: 50px;
-        line-height: 62px;
-    }
-    .detailTvcf div p{
-        position:absolute;
-        left:50%;
-        transform:translate(-50%, -50%);
-        font-size: 20px;
-        line-height: 32px;
-        text-align: center;
-        color: #e3e3e3;
-    }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
@@ -1339,18 +1279,12 @@
         line-height: 26px;
     }
 
-
-    .detailTvcf iframe{
-        min-height: 600px;
-    }
     .detailTvcf div{
-        height:600px;
+        display: none;
     }
-    .detailTvcf div h2{
-        top:20%;
-    }
-    .detailTvcf div p{
-        top:34%;
+    .detailTvcf iframe{
+        display:block;
+        min-height: 600px;
     }
 }
 @media screen and (min-width: 1025px){
@@ -1665,17 +1599,61 @@
         margin-right: 10%;
     }
 
+    .detailTvcf{
+        background-color: #202020;
+        position: relative;
+    }
     .detailTvcf iframe{
+        display:none;
         min-height: 800px;
     }
     .detailTvcf div{
-        height:800px;
+        width:100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     }
+    .detailTvcf.hite div{ background-image: url("../images/detail/cf_hite.png"); }
+    .detailTvcf.terra div{ background-image: url("../images/detail/cf_terra.png"); }
+    .detailTvcf.max div{ background-image: url("../images/detail/cf_max.png"); }
+    .detailTvcf.filite div{ background-image: url("../images/detail/cf_filite.png"); }
+
     .detailTvcf div h2{
+        position:absolute;
         top:30%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        font-size: 50px;
+        line-height: 62px;
+        color: #fff;
     }
     .detailTvcf div p{
+        position:absolute;
         top:38%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #e3e3e3;
+    }
+    .detailTvcf div button{
+        position:absolute;
+        z-index:100;
+        top:55%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        background-color:transparent;
+        width: 120px;
+        height: 120px;
+        border:1px solid #fff;
+        border-radius: 100%;
+        color: #fff;
+        padding-bottom: 10px;
+        padding-left: 13px;
+        text-indent: -9999px;
+        background: url("../images/detail/btn_play.png") no-repeat center center;  
     }
     .detailTvcf div button:hover {
         cursor:pointer;
